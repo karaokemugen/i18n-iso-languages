@@ -1,6 +1,6 @@
 {
-  "name": "@cospired/i18n-iso-languages",
-  "version": "4.2.0",
+  "name": "@karaokemugen/i18n-iso-languages",
+  "version": "4.2.1",
   "description": "i18n for ISO 639 language codes",
   "typings": "index.d.js",
   "keywords": [
@@ -45,6 +45,7 @@
     "ru",
     "sk",
     "sv",
+    "ta",
     "th",
     "uk",
     "vi",
@@ -70,12 +71,20 @@
     {
       "name": "Bertrand Zuchuat",
       "email": "bertrand.zuchuat@gmail.com"
+    },
+    {
+      "name": "Guillaume Lebigot",
+      "email": "axel@teri-chan.net"
+    },
+    {
+      "name": "Florent Berthelot",
+      "email": "florentius.b@gmail.com"
     }
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cospired/i18n-iso-languages.git"
+    "url": "https://github.com/karaoke-mugen/i18n-iso-languages.git"
   },
   "devDependencies": {
     "@cospired/eslint-config-base": "^6.0.0",
@@ -103,7 +112,7 @@
     "npm:update": "npm-check -u",
     "postversion": "git push --follow-tags",
     "test": "npm run lint:ci && npm run test:circular && npm run test:coverage",
-    "test:circular": "madge --circular --exclude 'madge|source-map' .",
+    "test:circular": "madge --circular --exclude \"madge|source-map\" .",
     "test:coverage": "nyc npm run test:mocha",
     "test:mocha": "mocha test/*.js"
   },
