@@ -1,6 +1,10 @@
 # Changelog
 
-## [Unreleased]
+## 4.2.2
+
+- correct spelling of "Francés" in Spanish dictionary
+
+## 4.2.1
 
 - added Tamil translations
 
